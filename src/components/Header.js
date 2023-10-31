@@ -14,7 +14,7 @@ const Header = () => {
             </div>
             <div className="center-content">
                 <div className="search-text">
-                    <a href="#">Apply Visa </a>{" "}
+                    <a href="/Applyhere">Apply Visa </a>{" "}
                 </div>
                 <div className="departure-text search-text ">
                     <a href="#">Explore</a>

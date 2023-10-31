@@ -1,0 +1,33 @@
+/* src/App.css */
+
+.apply-text-left {
+    text-align: left !important;
+  }
+  
+  .apply-journey-text {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  /* .apply-journey-text:hover {
+    color: #ff5733;
+  } */
+  
+  .apply-rounded-pill {
+    background-color: #ff5733;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-rounded-pill:hover {
+    background-color: #ff8c5b;
+  }
+  
