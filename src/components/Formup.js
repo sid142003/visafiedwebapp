@@ -51,11 +51,11 @@ const YourUvisaForm = () => {
                   height="500px"
                 />
               )}
+            </div>
+          )}
                  <button className="styled-button" onClick={handleChooseFileUpper}>
           Upload Frontside
           </button>
-            </div>
-          )}
         </div>
         <div className="uvisa-divider"></div> {/* Divider line */}
         <div className="uvisa-lower">
