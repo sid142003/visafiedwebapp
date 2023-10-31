@@ -1,0 +1,30 @@
+/* Footer.css */
+
+/* .containerf{
+    position: relative;
+    margin: 50px;
+} */
+.footer {
+    position: relative;
+    padding: 50px 0;
+    opacity: 0; /* Start with 0 opacity */
+  
+    /* CSS transition for fade-in effect */
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .footer.show {
+    opacity: 1; /* Show the footer with a fade-in effect */
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* You can add additional custom styles here to enhance the look of your footer. */
+  

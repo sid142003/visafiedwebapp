@@ -1,0 +1,53 @@
+/* src/components/CardSlider.css */
+.containerc{
+    position: relative;
+    margin-top: 50px;
+    margin: 5rem;
+}
+.testimo-card-slider {
+    position: relative;
+    width: 100%;
+    /* max-width: 1000px; */
+    /* margin: 0 auto; */
+    /* background-color: aqua; */
+  }
+  
+  .testimo-card-slider h1{
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: "Poppins", sans-serif;
+
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    font-size: 32px;
+    font-weight: 600;
+   
+  }
+  .testimo-square-card {
+    width: 250px; /* Increase the card size */
+    height: 250px; /* Increase the card size */
+    margin: 0 10px; /* Add margin to create space between cards */
+    padding: 15px; /* Add padding inside the cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    background-color: rgb(16, 213, 148);
+    border-radius: 8px;
+  }
+  
+  .testimo-square-card .card-title {
+    font-size: 20px; /* Increase the title font size */
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .testimo-square-card .card-text {
+    font-size: 16px; /* Increase the text font size */
+    text-align: center;
+  }
+  
