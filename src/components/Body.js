@@ -69,7 +69,7 @@ const Body = () => {
         <div className="card card-custom">
             <div className="card-body">
               <h5 className="card-title"> <AiOutlineCheckCircle size={24} />
-                 &nbsp; Stress Free And Fast Process</h5>   
+                 &nbsp; Simple & Seamless <br/> Documentation</h5>   
             </div>
         </div>
     
@@ -79,7 +79,7 @@ const Body = () => {
            
           
        
-                <h5 className="card-title">  <FaInfoCircle size={24} /> &nbsp; Know Your VISA Status</h5>
+                <h5 className="card-title">  <FaInfoCircle size={24} /> &nbsp; Stress Free And Fast Process</h5>
               
             </div>
         </div>
@@ -87,7 +87,7 @@ const Body = () => {
     
         <div className="card card-custom">
             <div className="card-body">
-                <h5 className="card-title"> <FaCheck size={24} /> &nbsp; You Get Your VISA</h5>
+                <h5 className="card-title"> <FaLock size={24} /> &nbsp;  100% Data Privacy</h5>
                
             </div>
         </div>
@@ -95,7 +95,7 @@ const Body = () => {
   
         <div className="card card-custom">
             <div className="card-body">
-                <h5 className="card-title"> <FaLock size={24} /> &nbsp; 100% Data Privacy</h5>
+                <h5 className="card-title"> <FaCheck size={24} /> &nbsp; Dedicated Concierge</h5>
               
             </div>
         </div>

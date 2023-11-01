@@ -99,8 +99,21 @@ Header{
 
   .card-body{
     /* background-color: #f7f7f7; */
+    height: 5rem;
+    width: 15em;
     border-radius: 20px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
    
+  }
+  .card-body h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
   
   .card-custom:hover {
