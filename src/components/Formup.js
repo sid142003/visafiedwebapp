@@ -30,9 +30,10 @@ const YourUvisaForm = () => {
 
   return (
     <div className="uvisa-form-container">
+        <div className="uvisa-givepad">
       <div className="uvisa-left">
         <div className="uvisa-upper">
-          <h2>Upload File for Left Upper</h2>
+         
           <input
             type="file"
             accept=".png, .jpeg, .pdf"
@@ -62,9 +63,9 @@ const YourUvisaForm = () => {
           </div>
                  
         </div>
-        <div className="uvisa-divider"></div> {/* Divider line */}
+        <div className="uvisa-divider"></div>
         <div className="uvisa-lower">
-          <h2>Upload File for Left Lower</h2>
+         
           <input
             type="file"
             accept=".png, .jpeg, .pdf"
@@ -96,7 +97,7 @@ const YourUvisaForm = () => {
         </div>
         
       </div>
-      <div className="uvisa-right">
+      {/* <div className="uvisa-right">
       <div className='one'>
             <h2>Review's Basic Details:</h2>
             <div className='one-form-field'>
@@ -190,6 +191,8 @@ const YourUvisaForm = () => {
           <button className="verify-button">Verify Travellers Details</button>
           </div>
           </div>
+      </div> */}
+
       </div>
     </div>
   );

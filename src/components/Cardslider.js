@@ -11,6 +11,8 @@ const CardSlider = () => {
     {
       title: 'Card 1',
       text: 'This is the first card.',
+      image:'Dubai.jpg'
+     
     },
     {
       title: 'Card 2',
@@ -74,12 +76,13 @@ const CardSlider = () => {
         slidesToSlide={1}
         swipeable
       >
-        {cardData.map((item, index) => (
+         {cardData.map((item, index) => (
           <Card key={index}>
-            <Card.Body>
+            <img src={item.image} alt={item.title} />
+            {/* <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.text}</Card.Text>
-            </Card.Body>
+            </Card.Body> */}
           </Card>
         ))}
       </Carousel>

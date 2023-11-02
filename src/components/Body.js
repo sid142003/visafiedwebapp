@@ -57,7 +57,7 @@ const Body = () => {
       < Header />
       <div className="body-content">
         <div className="body-content-left">
-          <h1>Get Your Tourist Visa Quick And EAZY</h1>
+          <h1>Travelling To</h1>
           <div className="country-dropdown">
             <Select options={countryOptions} styles={customStyles} placeholder="Select Country"/>
           </div>
