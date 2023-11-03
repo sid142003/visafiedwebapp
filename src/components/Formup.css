@@ -6,8 +6,16 @@
 }
 
 .uvisa-form-container {
-    padding: 0 20px;
-   
+    /* padding: 0 20px; */
+    /* width: 80vw; */
+    
+  }
+
+  .h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .uvisa-givepad{
     display: flex;
@@ -28,6 +36,14 @@
     flex-direction: column;
    
   }
+  .uvisa-left {
+    order: 2;
+  }
+  
+  .uvisa-right {
+    order: 1;
+  }
+  
   
   .uvisa-upper, .uvisa-lower {
     text-align: center;
@@ -61,7 +77,8 @@
   
   .uvisa-right {
    
-    background-color: #f5f5f5;
+    background-color: white;
+    padding: 20px;
     
     /* Right-side component styles here */
   }
@@ -252,11 +269,11 @@
     width: 520px;
   }
 
-  #sname , #dob , #expiry , #a2 , #email{
+  #sname , #dob , #expiry , #a2 {
     margin-left: 10px;
   }
 
-  label[for="dob"], label[for="sname"] , label[for="expiry"] , label[for="a2"] ,label[for="state"],label[for="pinc"],label[for="email"]{
+  label[for="dob"], label[for="sname"] , label[for="expiry"] , label[for="a2"] ,label[for="state"],label[for="pinc"]{
     margin-left: 10px;
   }
 

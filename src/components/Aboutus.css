@@ -5,6 +5,11 @@
    
 }
 
+.fixheight{
+    height:6rem;
+
+   
+}
 .image-background{
     /* position: absolute; */
     background-image: url("../components/aboutimage.jpg");

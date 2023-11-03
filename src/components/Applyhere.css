@@ -31,3 +31,54 @@
     background-color: #ff8c5b;
   }
   
+
+  .travel-button {
+    background-color: #f0f0f0; /* Background color for traveler buttons */
+    color: #000; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    margin-right: 10px;
+  }
+  
+  /* Style for the active traveler button */
+  .travel-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style for the delete button (X) */
+  .delete-button {
+    color: #ff5733; /* Color for the delete icon */
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .traveler-count {
+    font-weight: bold;
+    margin-bottom: 10px; /* Add space below the traveler count */
+    /* Add additional styling as desired */
+  }
+
+  .c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .travel {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure traveler buttons are in a single row */
+     /* Center vertically */
+  }
+  
+  /* Style for the traveler button container */
+  .traveler-button-container {
+    display: flex;
+   
+    margin-right: 10px;
+    
+  }

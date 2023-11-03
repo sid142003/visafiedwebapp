@@ -40,22 +40,22 @@ const Aboutus = () => {
             <div className="ab_p ">
               {" "}
               {/* Added the 'card' class */}
-              <p className="animated-bg p-3 rounded card">
+              <p className="animated-bg p-3 rounded card fixheight ">
                 <b> Seamless Documentation </b> We'll simplify the visa
                 application process, ensuring that you have all the necessary
                 information regarding important documents, making it a breeze
                 for you to apply your tourist visa the right way.
               </p>
-              <p className="animated-bg p-3 rounded card">
+              <p className="animated-bg p-3 rounded card fixheight">
                 <b> Stress Free & Fast Application Process</b> Our team will
                 ensure that your visa process is smooth and stress-free, and get
                 your application ready before you can imagine.
               </p>
-              <p className="animated-bg p-3 rounded card">
+              <p className="animated-bg p-3 rounded card fixheight">
                 <b> 100% Data Privacy </b> Data privacy is our priority. Secure
                 & Safe. Period!
               </p>
-              <p className="animated-bg p-3 rounded card">
+              <p className="animated-bg p-3 rounded card fixheight">
                 <b> Dedicated Concierge </b> You get your personal visa expert
                 to help you with anything & everything as per your requirement.
               </p>

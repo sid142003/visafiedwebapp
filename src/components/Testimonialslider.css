@@ -1,15 +1,17 @@
-/* src/components/CardSlider.css */
+
 .containert{
-    position: relative;
-    margin-top: 50px;
-    margin: 5rem;
+  position: relative;
+  margin-top: 50px;
+  margin: 5rem;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(243, 241, 241);
 }
-.testimonial-card-slider {
+.testimonial-card-slider{
     position: relative;
     width: 100%;
-    /* max-width: 1000px; */
-    /* margin: 0 auto; */
-    /* background-color: aqua; */
+    margin-top: 5px;
+    
   }
   
   .testimonial-card-slider h1{

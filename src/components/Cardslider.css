@@ -3,14 +3,17 @@
     position: relative;
     margin-top: 50px;
     margin: 5rem;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(243, 241, 241);
 }
 .testimo-card-slider {
     position: relative;
     width: 100%;
-    /* max-width: 1000px; */
-    /* margin: 0 auto; */
-    /* background-color: aqua; */
-  }
+    margin-top: 10px;
+    
+}
   
   .testimo-card-slider h1{
     position: relative;
@@ -29,15 +32,15 @@
   .testimo-square-card {
     width: 250px; /* Increase the card size */
     height: 250px; /* Increase the card size */
-    margin: 0 10px; /* Add margin to create space between cards */
-    padding: 15px; /* Add padding inside the cards */
+    margin: 0 10px; 
+    padding: 15px; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #ddd;
-    background-color: rgb(16, 213, 148);
-    border-radius: 8px;
+    /* border: 1px solid #ddd; */
+    /* background-color: rgb(16, 213, 148); */
+    /* border-radius: 10px; */
   }
   
   .testimo-square-card .card-title {
@@ -51,3 +54,27 @@
     text-align: center;
   }
   
+
+  /* In your Cardslider.css file or your preferred CSS file */
+.card-img {
+  max-width: 100%; /* Limit the maximum width of the image to fit the card */
+  max-height: 100%; /* Limit the maximum height of the image to fit the card */
+ /* / object-fit: cover; Fit the image within the specified dimensions */
+  /* border-radius: 15px; */
+}
+
+.card-overlay {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  background-color:rgb(219, 53, 53);
+  color: white;
+  /* padding: 5px 30px; */
+  width: 5rem;
+  /* height: 15px; */
+  padding: 2px;
+  text-align: center;
+  z-index: 1; /* To place it above the image */
+}
+
+

@@ -5,33 +5,43 @@ import Card from 'react-bootstrap/Card';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import '../components/Cardslider.css';
+import Dubai from '../components/Dubai.jpg';
+import Usa from '../components/USA.jpg';
+import Uk from '../components/UK.jpg';
+import Malaysia from '../components/Malaysia.jpg';
+import { Element } from 'react-scroll';
 
 const CardSlider = () => {
   const cardData = [
     {
       title: 'Card 1',
-      text: 'This is the first card.',
-      image:'Dubai.jpg'
+      text: 'Dubai',
+      image:Dubai
      
     },
     {
       title: 'Card 2',
-      text: 'This is the second card.',
+      text: 'USA',
+      image:Usa
     },
     {
       title: 'Card 3',
-      text: 'This is the third card.',
+      text: 'UK',
+      image:Uk
     },
     {
       title: 'Card 4',
-      text: 'This is the fourth card.',
+      text: 'Malaysia',
+      image:Malaysia
     },
     // Add more card objects as needed
   ];
 
   return (
+    <Element name="section1" className="section">
     <div className="testimo-card-slider">
       <h1>Trending This Winter</h1>
+      {/* <div className='B'>  */}
       <Carousel
         additionalTransfrom={0}
         arrows={false}
@@ -78,7 +88,9 @@ const CardSlider = () => {
       >
          {cardData.map((item, index) => (
           <Card key={index}>
-            <img src={item.image} alt={item.title} />
+            <div className="card-overlay ">{item.text}</div>
+             <img src={item.image} alt={item.title} className="card-img" /> 
+            {/* <Card.Body> */}
             {/* <Card.Body>
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.text}</Card.Text>
@@ -86,7 +98,9 @@ const CardSlider = () => {
           </Card>
         ))}
       </Carousel>
-    </div>
+      </div>
+     {/* </div> */}
+     </Element>
   );
 };
 
